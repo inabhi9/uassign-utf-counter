@@ -22,6 +22,16 @@ UTF-8 is made of several sequencial bytes and it also has backward compatibility
 All non-ASCII character has a sequence of bytes to reprensent the single character. It's first byte always in range of 0xC0 to 0xFD. So here is the solution if calculate the bitwise AND of 0xC0 and Character, it'll give whether it's UTF char's first byte or not.
 
 
+Execution instruction
+---------
+
+Please provide lines only ends with either \n or \r. Line containing both will generate false result.
+To execute under linux environment
+
+	gcc utf-counter.c -Wall
+	./a.out < test_cases.txt
+
+
 #### Refs:
 http://www.changhai.org/articles/technology/misc/utf-8.php  
 
