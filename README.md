@@ -23,5 +23,6 @@ All non-ASCII character has a sequence of bytes to reprensent the single charact
 
 
 #### Refs:
-http://www.changhai.org/articles/technology/misc/utf-8.php
-https://en.wikipedia.org/wiki/UTF-8#Description
+http://www.changhai.org/articles/technology/misc/utf-8.php  
+
+https://en.wikipedia.org/wiki/UTF-8#Description  
