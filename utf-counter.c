@@ -14,7 +14,7 @@ int main(void){
     char ch;
 
     while( (ch = fgetc(stdin) ) != EOF){
-        if (ch == '\n' || ch == '\r' || ch == EOF){
+        if (ch == '\n' || ch == EOF){
             // new line encountered so print number of UTF characters
             // found in the line, trailing with new line
             printf("%d%c", noOfUtfChars, '\n');

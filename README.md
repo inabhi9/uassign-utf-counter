@@ -25,7 +25,7 @@ All non-ASCII character has a sequence of bytes to reprensent the single charact
 Execution instruction
 ---------
 
-Please provide lines only ends with either \n or \r. Line containing both will generate false result.
+Please provide lines only ends with either \n. Line containing only \r will generate false result.
 To execute under linux environment
 
 	gcc utf-counter.c -Wall
